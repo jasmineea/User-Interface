@@ -87,8 +87,17 @@ header h1 {
     font-size: 60px;
 }
 
+.wrapper {
+    display: inline-block;
+}
+
 header .wrapper .leftcolumn {
     margin-right: 140px;
+    
+}
+
+header .wrapper .rightcolumn {
+    margin-left: 170px;
 }
 
 section {
