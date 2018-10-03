@@ -65,13 +65,26 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav a {
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: solid 2px;
+    padding: 10px 50px;
 }
 
 header .logo {
     display: inline-block;
     float: right;
+    margin-right: 20px;
 }
 .header-logo {
     float: right;
@@ -84,21 +97,31 @@ header div {
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 70px;
 }
 
-.wrapper {
-    display: inline-block;
+
+
+.wrapper1 {
+    display: block;
+    margin-left: 20px;
 }
 
 header .wrapper .leftcolumn {
-    margin-right: 140px;
+    margin-left: 100px;
     
 }
 
 header .wrapper .rightcolumn {
-    margin-left: 170px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
+
+
+.header-img {
+    height: 300px;
+}
+
 
 section {
     margin-top: 50px;
@@ -109,35 +132,46 @@ section {
     margin-bottom: 20px;
 }
 
+.img-snippet1 {
+    width: 900px;
+}
+
 
 .wrapper .about-content {
     display: inline-block;
     width: 320px;
+    margin-right: 30px;
     
 }
 
 .wrapper .feature-content {
-    width: 320px;
+    width: 300px;
     display: inline-block;
     float: right;
 }
 
 .wrapper .service-content {
-    width: 320px;
+    width: 300px;
     display: inline-block;
-    float: right;
+     float: right;
+    margin-right: 20px;
+    
+   
 }
 
 .wrapper .product-content {
-    width: 320px;
+    width: 300px;
     display: inline-block;
     float: right;
+  
+    
+
 }
 
 
 
 .wrapper .vision-content {
-    width: 320px;
+    width: 280px;
     display: inline-block;
 }
 
